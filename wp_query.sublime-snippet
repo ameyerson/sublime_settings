@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+		$args = array(
+		    'post_type' => '$1',
+		    'posts_per_page' => -1,
+		    'post_status' => 'publish',
+		);
+		$the_posts = new WP_Query( $args );
+	]]></content>
+	<tabTrigger>wpquery</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

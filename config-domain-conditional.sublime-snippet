@@ -1,16 +1,16 @@
 <snippet>
 	<content><![CDATA[
-		if ($_SERVER['HTTP_HOST'] == '$1.alexmdev.com') {
+		if (\$_SERVER['HTTP_HOST'] == '$1.alexmdev.com') {
 
 			define('DB_NAME', '$1_db');
-			define('DB_USER', 'dev_user');
-			define('DB_PASSWORD', 'dev_user');
+			define('DB_USER', 'amdev_user');
+			define('DB_PASSWORD', 'n7JJVpqmfMBK');
 			define('DB_HOST', 'localhost');
-		} else if ($_SERVER['HTTP_HOST'] == '$2.alexmstage.com') {
+		} else if (\$_SERVER['HTTP_HOST'] == '$2.alexmstage.com') {
 		
 			define('DB_NAME', '$2_db');
-			define('DB_USER', 'stage_user');
-			define('DB_PASSWORD', 'stage_user');
+			define('DB_USER', 'amstage_user');
+			define('DB_PASSWORD', '7gZelHTr1qpR');
 			define('DB_HOST', 'localhost');
 		} else {
 
