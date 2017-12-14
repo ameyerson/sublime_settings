@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+		if ($_SERVER['HTTP_HOST'] == '$1.alexmdev.com') {
+
+			define('DB_NAME', '$1_db');
+			define('DB_USER', 'dev_user');
+			define('DB_PASSWORD', 'dev_user');
+			define('DB_HOST', 'localhost');
+		} else if ($_SERVER['HTTP_HOST'] == '$2.alexmstage.com') {
+		
+			define('DB_NAME', '$2_db');
+			define('DB_USER', 'stage_user');
+			define('DB_PASSWORD', 'stage_user');
+			define('DB_HOST', 'localhost');
+		} else {
+
+		}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>configdom</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
