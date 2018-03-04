@@ -17,3 +17,8 @@ Traceback (most recent call last):
   File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 361, in handle_get_dirs
   File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 527, in lcd
 SFTP.sftp.errors.NotFoundError: Folder not found
+2018-01-15 19:45:47
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 16, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 1947, in run
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\dev\\projects\\danc\\wp-content\\themes\\CosbeyCassidyTheme\\template-team-landing.php'

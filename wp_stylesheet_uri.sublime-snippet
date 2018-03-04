@@ -1,0 +1,6 @@
+<snippet>
+    <!-- Type `loop` and hit tab to output a simple WP_Query loop. -->
+    <content><![CDATA[<?= get_stylesheet_directory_uri(); ?>]]></content>
+    <tabTrigger>ssd</tabTrigger>
+<!--     <scope>php</scope> -->
+</snippet>

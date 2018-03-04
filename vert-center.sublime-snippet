@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	]]></content>
+	<tabTrigger>pt</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
